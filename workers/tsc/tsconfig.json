@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "module": "System",
+    "module": "ESNext",
     "lib": ["ES2022"],
     "outFile": "./dist/tsc_worker.js",
     "rootDir": "../../",
@@ -12,7 +12,6 @@
     "moduleResolution": "node",
     "declaration": false,
     "sourceMap": true,
-    "allowSyntheticDefaultImports": true,
     "baseUrl": "./"
   },
   "include": ["*.ts"],
